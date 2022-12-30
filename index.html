@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name = "A simple game" content="Rock, Paper, Scissors game the bonus: Lizard Spoke">
+  <meta name="description" content="A simple and functional Calculator with some color's theme"> 
+   <!-- 
+  displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="./style.css">
+  
+  <title>Frontend Mentor | Rock, Paper, Scissors</title>
+
+  <!-- Score
+  Rules
+
+  You Picked
+  The House Picked
+
+  You Win
+  You Lose
+
+  Play Again -->
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <!-- <style>
+    
+  </style> -->
+</head>
+<body>
+  <main>
+    <div class="navigation">
+      <img src="./images/logo.svg" alt="logo rock-paper-scissors">
+      <div class="score">
+        <span>score</span>
+        <span class="thescore">0</span>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="therules" id="therules">
+        <span>RULES</span>
+        <img class="rulePage" src="./images/image-rules.svg" alt="the rules about the game rock-paper-scissors">
+        <button class="close">
+          <img src="./images/icon-close.svg" alt="close button for the rule's menu">
+        </button>
+      </div>
+      <div class="selection_div">
+        <button><img src="./images/icon-paper.svg" alt="the paper's button"></button>
+        <button><img src="./images/icon-scissors.svg" alt="the scissors' button"></button>
+        <button><img src="./images/icon-rock.svg" alt="the rock button"></button>
+      </div>
+      <div class="choice_div">
+        <div class="player"><img src="" alt=""></div>
+        <div class="result">
+          <span>YOU WIN</span>
+          <button>PLAY AGAIN</button>
+        </div>
+        <div class="computer"><img src="" alt=""></div>
+      </div>
+    </div>
+    <button class="level">HARD LEVEL</button>
+    <button class="rule" aria-expanded="false" aria-controls="therules">RULES</button>
+
+  </main>
+
+
+
+  
+  <!-- <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div> -->
+  <script src="./app.js"></script>
+</body>
+</html>
